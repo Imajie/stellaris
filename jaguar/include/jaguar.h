@@ -12,6 +12,9 @@
 
 #define JAG_UART UART1_BASE
 
+#define MOTOR_LEFT	(2)
+#define MOTOR_RIGHT	(3)
+
 /*
  * Device types
  */
@@ -194,6 +197,7 @@ typedef struct {
  */
 void init_jaguar(void);
 jaguar_packet_data jaguar_device_query( uint8_t dev_id );
+void jaguar_device_assign( uint8_t dev_id );
 
 void jaguar_status( uint8_t dev_id, status_api id );
 

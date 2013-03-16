@@ -13,6 +13,11 @@
 #define LED_BLUE 0x4
 #define LED_GREEN 0x8
 
+// 16.16 fixed point constants
+#define P	0x00010000
+#define I	0x00000000
+#define D	0x00000000
+
 int main(void)
 {
 	// enable PORT F GPIO peripheral
@@ -29,23 +34,22 @@ int main(void)
 
 	init_jaguar();
 
-	SysCtlDelay(10* WAIT_1MS);
-
+	/*
 	jaguar_motor_config( 1, ENCODER_PPR, 121*4 ); //141 );
-
-	// 16.16 fixed point constants
-#define P	0x00010000
-#define I	0x00000000
-#define D	0x00000000
-
+	
 	jaguar_control_mode_enable( SPEED_CONTROL, 1, 1 );
 	jaguar_control_mode_setPID( SPEED_CONTROL, 1, P, I, D );
 	jaguar_control_mode_reference( SPEED_CONTROL, 1, QUAD_ENCODER );
 
 	jaguar_control_mode_set( SPEED_CONTROL, 1, 80<<16 );
+	*/
 
-//	jaguar_voltage_control_enable( 0, 1 );
-//	jaguar_voltage_control_set( 0, 15000 );
+	// enable voltage output mode
+	jaguar_voltage_control_enable( MOTOR_LEFT, 1 );
+	jaguar_voltage_control_enable( MOTOR_RIGHT, 1 );
+
+	jaguar_voltage_control_set( MOTOR_LEFT, -15000 );
+	jaguar_voltage_control_set( MOTOR_RIGHT, 15000 );
 
 	// loop forever
 	for(;;)

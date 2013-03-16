@@ -173,6 +173,16 @@ jaguar_packet_data jaguar_device_query( uint8_t dev_id )
 	return NULL;
 }
 
+void jaguar_device_assign( uint8_t dev_id )
+{
+	jaguar_packet_t packet;
+
+	jaguar_make_packet( &packet, SYSTEM_CONTROL, DEVICE_ASSIGNMENT, dev_id, 1,
+			dev_id,0,0,0, 0,0,0,0 );
+
+	jaguar_send_packet( &packet );
+}
+
 void jaguar_status( uint8_t dev_id, status_api id )
 {
 	jaguar_packet_t packet;
