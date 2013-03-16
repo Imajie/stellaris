@@ -1,0 +1,234 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACCEL_SENSOR	include/jaguar.h	/^	ACCEL_SENSOR			= 5,$/;"	e	enum:__anon1
+ACK	include/jaguar.h	/^	ACK						= 8$/;"	e	enum:__anon3
+AR	Makefile	/^AR          = $(TOOL)\/bin\/arm-none-eabi-ar$/;"	m
+AS	Makefile	/^AS          = $(TOOL)\/bin\/arm-none-eabi-as$/;"	m
+ASMS	Makefile	/^ASMS        = $(patsubst %.s, .obj\/%.s,$(SOURCES:.c=.s))$/;"	m
+BREAK_COAST	include/jaguar.h	/^	BREAK_COAST				= 3,$/;"	e	enum:__anon10
+BROADCAST_MANUFACTURER	include/jaguar.h	/^	BROADCAST_MANUFACTURER	= 0,$/;"	e	enum:__anon2
+BROADCAST_TYPE	include/jaguar.h	/^	BROADCAST_TYPE			= 0,$/;"	e	enum:__anon1
+BUS_VOLTAGE	include/jaguar.h	/^	BUS_VOLTAGE				= 1,$/;"	e	enum:__anon9
+CC	Makefile	/^CC          = $(TOOL)\/bin\/arm-none-eabi-gcc$/;"	m
+CLK16	include/stellariscommon.h	13;"	d
+CLK50	include/stellariscommon.h	12;"	d
+CLK80	include/stellariscommon.h	11;"	d
+CONFIGURATION	include/jaguar.h	/^	CONFIGURATION			= 7,$/;"	e	enum:__anon3
+CONFIGURE_MESSAGE_0	include/jaguar.h	/^	CONFIGURE_MESSAGE_0		= 4,$/;"	e	enum:__anon11
+CONFIGURE_MESSAGE_1	include/jaguar.h	/^	CONFIGURE_MESSAGE_1		= 5,$/;"	e	enum:__anon11
+CONFIGURE_MESSAGE_2	include/jaguar.h	/^	CONFIGURE_MESSAGE_2		= 6,$/;"	e	enum:__anon11
+CONFIGURE_MESSAGE_3	include/jaguar.h	/^	CONFIGURE_MESSAGE_3		= 7,$/;"	e	enum:__anon11
+CONTROL_MODE	include/jaguar.h	/^	CONTROL_MODE			= 9,$/;"	e	enum:__anon9
+CP	Makefile	/^CP          = cp -p$/;"	m
+CURRENT	include/jaguar.h	/^	CURRENT					= 2,$/;"	e	enum:__anon9
+CURRENT_CONTROL	include/jaguar.h	/^	CURRENT_CONTROL			= 4,$/;"	e	enum:__anon3
+DEBUG	Makefile	/^DEBUG       = $(TOOL)\/bin\/arm-none-eabi-gdb$/;"	m
+DEKA	include/jaguar.h	/^	DEKA					= 3$/;"	e	enum:__anon2
+DEVICE_ASSIGNMENT	include/jaguar.h	/^	DEVICE_ASSIGNMENT	= 2,$/;"	e	enum:__anon4
+DEVICE_QUERY	include/jaguar.h	/^	DEVICE_QUERY		= 3,$/;"	e	enum:__anon4
+DRIVER_LIB	Makefile	/^	DRIVER_LIB	= $(SW_DIR)\/driverlib\/gcc-cm4f-hard\/libdriver-cm4f-hard.a$/;"	m
+DRIVER_LIB	Makefile	/^	DRIVER_LIB	= $(SW_DIR)\/driverlib\/gcc-cm4f\/libdriver-cm4f.a$/;"	m
+ENABLE_MESSAGE_0	include/jaguar.h	/^	ENABLE_MESSAGE_0		= 0,$/;"	e	enum:__anon11
+ENABLE_MESSAGE_1	include/jaguar.h	/^	ENABLE_MESSAGE_1		= 1,$/;"	e	enum:__anon11
+ENABLE_MESSAGE_2	include/jaguar.h	/^	ENABLE_MESSAGE_2		= 2,$/;"	e	enum:__anon11
+ENABLE_MESSAGE_3	include/jaguar.h	/^	ENABLE_MESSAGE_3		= 3,$/;"	e	enum:__anon11
+ENCODER_NEG	include/jaguar.h	/^	ENCODER_NEG		= 2,$/;"	e	enum:__anon8
+ENCODER_POS	include/jaguar.h	/^	ENCODER_POS		= 0,$/;"	e	enum:__anon8
+ENCODER_PPR	include/jaguar.h	/^	ENCODER_PPR				= 1,$/;"	e	enum:__anon10
+ENUMERATION	include/jaguar.h	/^	ENUMERATION			= 9,$/;"	e	enum:__anon4
+FAULT	include/jaguar.h	/^	FAULT					= 7,$/;"	e	enum:__anon9
+FAULT_COUNT	include/jaguar.h	/^	FAULT_COUNT				= 12$/;"	e	enum:__anon9
+FAULT_TIME	include/jaguar.h	/^	FAULT_TIME				= 8$/;"	e	enum:__anon10
+FIRMWARE_UPDATE	include/jaguar.h	/^	FIRMWARE_UPDATE		= 7,$/;"	e	enum:__anon4
+FIRMWARE_UPDATE_TYPE	include/jaguar.h	/^	FIRMWARE_UPDATE_TYPE	= 31$/;"	e	enum:__anon1
+FIRMWARE_VERSION	include/jaguar.h	/^	FIRMWARE_VERSION	= 8,$/;"	e	enum:__anon4
+FLASH	Makefile	/^FLASH       = $(TOOL)\/bin\/lm4flash$/;"	m
+FORWARD_DIRECTION_LIMIT	include/jaguar.h	/^	FORWARD_DIRECTION_LIMIT	= 5,$/;"	e	enum:__anon10
+FPU	Makefile	/^FPU         = softfp$/;"	m
+FaultISR	src/startup.c	/^static void FaultISR(void)$/;"	f	file:	signature:(void)
+FaultISR	src/startup.c	/^static void FaultISR(void);$/;"	p	file:	signature:(void)
+GEAR_TOOTH_SENSOR	include/jaguar.h	/^	GEAR_TOOTH_SENSOR		= 7,$/;"	e	enum:__anon1
+GYRO_SENSOR	include/jaguar.h	/^	GYRO_SENSOR				= 4,$/;"	e	enum:__anon1
+HEARTBEAT	include/jaguar.h	/^	HEARTBEAT			= 5,$/;"	e	enum:__anon4
+HardwareInit	src/startup.c	/^void HardwareInit()$/;"	f
+INCLUDES	Makefile	/^INCLUDES    = $(foreach dir,${dirs},-I${dir})$/;"	m
+IntDefaultHandler	src/startup.c	/^static void IntDefaultHandler(void)$/;"	f	file:	signature:(void)
+IntDefaultHandler	src/startup.c	/^static void IntDefaultHandler(void);$/;"	p	file:	signature:(void)
+JAG_UART	include/jaguar.h	13;"	d
+LD	Makefile	/^LD          = $(TOOL)\/bin\/arm-none-eabi-ld$/;"	m
+LD_SCRIPT	Makefile	/^LD_SCRIPT   = lm4f120h5qr.ld$/;"	m
+LED_BLUE	src/proj0.c	11;"	d	file:
+LED_GREEN	src/proj0.c	12;"	d	file:
+LED_RED	src/proj0.c	10;"	d	file:
+LIBC	Makefile	/^	LIBC    = $(TOOL)\/arm-none-eabi\/lib\/thumb\/cortex-m4\/float-abi-hard\/fpuv4-sp-d16\/libc.a$/;"	m
+LIBC	Makefile	/^	LIBC    = $(TOOL)\/arm-none-eabi\/lib\/thumb\/cortex-m4\/libc.a$/;"	m
+LIBGCC	Makefile	/^	LIBGCC  = $(TOOL)\/lib\/gcc\/arm-none-eabi\/$(TOOL_VER)\/thumb\/cortex-m4\/float-abi-hard\/fpuv4-sp-d16\/libgcc.a$/;"	m
+LIBGCC	Makefile	/^	LIBGCC  = $(TOOL)\/lib\/gcc\/arm-none-eabi\/$(TOOL_VER)\/thumb\/cortex-m4\/libgcc.a$/;"	m
+LIBM	Makefile	/^	LIBM    = $(TOOL)\/arm-none-eabi\/lib\/thumb\/cortex-m4\/float-abi-hard\/fpuv4-sp-d16\/libm.a$/;"	m
+LIBM	Makefile	/^	LIBM    = $(TOOL)\/arm-none-eabi\/lib\/thumb\/cortex-m4\/libm.a$/;"	m
+LIBS	Makefile	/^LIBS        = '$(LIBM)' '$(LIBC)' '$(LIBGCC)' '$(DRIVER_LIB)'$/;"	m
+LIMIT	include/jaguar.h	/^	LIMIT					= 6,$/;"	e	enum:__anon9
+LIMIT_MODE	include/jaguar.h	/^	LIMIT_MODE				= 4,$/;"	e	enum:__anon10
+MAX_OUTPUT_VOLTAGE	include/jaguar.h	/^	MAX_OUTPUT_VOLTAGE		= 7,$/;"	e	enum:__anon10
+MKDIR	Makefile	/^MKDIR       = mkdir -p$/;"	m
+MODE_DISABLE	include/jaguar.h	/^	MODE_DISABLE	= 1,$/;"	e	enum:__anon7
+MODE_ENABLE	include/jaguar.h	/^	MODE_ENABLE		= 0,$/;"	e	enum:__anon7
+MOTOR_CONTROLLER	include/jaguar.h	/^	MOTOR_CONTROLLER		= 2,$/;"	e	enum:__anon1
+MV	Makefile	/^MV          = mv$/;"	m
+NI	include/jaguar.h	/^	NI						= 1,$/;"	e	enum:__anon2
+NM	Makefile	/^NM          = $(TOOL)\/bin\/arm-none-eabi-nm$/;"	m
+NUM_BRUSHES	include/jaguar.h	/^	NUM_BRUSHES				= 0,$/;"	e	enum:__anon10
+NUM_POT_TURNS	include/jaguar.h	/^	NUM_POT_TURNS			= 2,$/;"	e	enum:__anon10
+NmiSR	src/startup.c	/^static void NmiSR(void)$/;"	f	file:	signature:(void)
+NmiSR	src/startup.c	/^static void NmiSR(void);$/;"	p	file:	signature:(void)
+OBJCOPY	Makefile	/^OBJCOPY     = $(TOOL)\/bin\/arm-none-eabi-objcopy$/;"	m
+OBJDUMP	Makefile	/^OBJDUMP     = $(TOOL)\/bin\/arm-none-eabi-objdump$/;"	m
+OBJECTS	Makefile	/^OBJECTS     = $(patsubst %.o, .obj\/%.o,$(SOURCES:.c=.o))$/;"	m
+OUTPUT_VOLTAGE	include/jaguar.h	/^	OUTPUT_VOLTAGE			= 10,$/;"	e	enum:__anon9
+OUTPUT_VOLTAGE_PERCENT	include/jaguar.h	/^	OUTPUT_VOLTAGE_PERCENT	= 0,$/;"	e	enum:__anon9
+PERIODIC_STATUS	include/jaguar.h	/^	PERIODIC_STATUS			= 6,$/;"	e	enum:__anon3
+PERIODIC_STATUS_0	include/jaguar.h	/^	PERIODIC_STATUS_0		= 8,$/;"	e	enum:__anon11
+PERIODIC_STATUS_1	include/jaguar.h	/^	PERIODIC_STATUS_1		= 9,$/;"	e	enum:__anon11
+PERIODIC_STATUS_2	include/jaguar.h	/^	PERIODIC_STATUS_2		= 10,$/;"	e	enum:__anon11
+PERIODIC_STATUS_3	include/jaguar.h	/^	PERIODIC_STATUS_3		= 11$/;"	e	enum:__anon11
+POSITION	include/jaguar.h	/^	POSITION				= 4,$/;"	e	enum:__anon9
+POSITION_CONTROL	include/jaguar.h	/^	POSITION_CONTROL		= 3,$/;"	e	enum:__anon3
+POTENTIOMETER	include/jaguar.h	/^	POTENTIOMETER	= 1,$/;"	e	enum:__anon8
+POWER	include/jaguar.h	/^	POWER					= 8,$/;"	e	enum:__anon9
+QUAD_ENCODER	include/jaguar.h	/^	QUAD_ENCODER	= 3$/;"	e	enum:__anon8
+RANLIB	Makefile	/^RANLIB      = $(TOOL)\/bin\/arm-none-eabi-ranlib$/;"	m
+READELF	Makefile	/^READELF     = $(TOOL)\/bin\/arm-none-eabi-readelf$/;"	m
+REFERENCE	include/jaguar.h	/^	REFERENCE		= 6,$/;"	e	enum:__anon7
+RELAY_CONTROLLER	include/jaguar.h	/^	RELAY_CONTROLLER		= 3,$/;"	e	enum:__anon1
+REVERSE_DIRECTION_LIMIT	include/jaguar.h	/^	REVERSE_DIRECTION_LIMIT	= 6,$/;"	e	enum:__anon10
+RM	Makefile	/^RM          = rm -rf$/;"	m
+ROBOT_CONTROLLER	include/jaguar.h	/^	ROBOT_CONTROLLER		= 1,$/;"	e	enum:__anon1
+ResetISR	src/startup.c	/^void ResetISR(void)$/;"	f	signature:(void)
+ResetISR	src/startup.c	/^void ResetISR(void);$/;"	p	file:	signature:(void)
+SET	include/jaguar.h	/^	SET				= 2,$/;"	e	enum:__anon7
+SET_D	include/jaguar.h	/^	SET_D			= 5,$/;"	e	enum:__anon7
+SET_I	include/jaguar.h	/^	SET_I			= 4,$/;"	e	enum:__anon7
+SET_NO_ACK	include/jaguar.h	/^	SET_NO_ACK		= 11$/;"	e	enum:__anon7
+SET_P	include/jaguar.h	/^	SET_P			= 3,$/;"	e	enum:__anon7
+SIZE	Makefile	/^SIZE        = $(TOOL)\/bin\/arm-none-eabi-size$/;"	m
+SOURCES	Makefile	/^SOURCES    = $(foreach dir,${dirs},$(wildcard ${dir}\/*.c))$/;"	m
+SPEED	include/jaguar.h	/^	SPEED					= 5,$/;"	e	enum:__anon9
+SPEED_CONTROL	include/jaguar.h	/^	SPEED_CONTROL			= 1,$/;"	e	enum:__anon3
+STATUS	include/jaguar.h	/^	STATUS					= 5,$/;"	e	enum:__anon3
+STICKY_FAULT	include/jaguar.h	/^	STICKY_FAULT			= 11,$/;"	e	enum:__anon9
+STRIP	Makefile	/^STRIP       = $(TOOL)\/bin\/arm-none-eabi-strip$/;"	m
+SW_DIR	Makefile	/^SW_DIR      = \/home\/james\/builds\/stellaris_ware$/;"	m
+SYNC_UPDATE	include/jaguar.h	/^	SYNC_UPDATE			= 6,$/;"	e	enum:__anon4
+SYSTEM_CONTROL	include/jaguar.h	/^	SYSTEM_CONTROL			= -1,$/;"	e	enum:__anon3
+SYSTEM_HALT	include/jaguar.h	/^	SYSTEM_HALT			= 0,$/;"	e	enum:__anon4
+SYSTEM_RESET	include/jaguar.h	/^	SYSTEM_RESET		= 1,$/;"	e	enum:__anon4
+SYSTEM_RESUME	include/jaguar.h	/^	SYSTEM_RESUME		= 10$/;"	e	enum:__anon4
+SetupClock	include/stellariscommon.h	/^void SetupClock(int clk);$/;"	p	signature:(int clk)
+SetupClock	src/stellariscommon.c	/^void SetupClock(int clk)$/;"	f	signature:(int clk)
+SetupFPU	include/stellariscommon.h	/^void SetupFPU(void);$/;"	p	signature:(void)
+SetupFPU	src/stellariscommon.c	/^void SetupFPU(void)$/;"	f	signature:(void)
+SetupStdio	include/stellariscommon.h	/^void SetupStdio(void);$/;"	p	signature:(void)
+SetupStdio	src/stellariscommon.c	/^void SetupStdio(void)$/;"	f	signature:(void)
+SetupSysTick	include/stellariscommon.h	/^void SetupSysTick(void);$/;"	p	signature:(void)
+SetupSysTick	src/stellariscommon.c	/^void SetupSysTick(void)$/;"	f	signature:(void)
+TARGET	Makefile	/^TARGET      = proj0$/;"	m
+TEMPERATURE	include/jaguar.h	/^	TEMPERATURE				= 3,$/;"	e	enum:__anon9
+TI	include/jaguar.h	/^	TI						= 2,$/;"	e	enum:__anon2
+TOOL	Makefile	/^TOOL        = \/usr\/$/;"	m
+TOOL_VER	Makefile	/^TOOL_VER	= 4.7.2$/;"	m
+TRACE	include/stellariscommon.h	6;"	d
+ULTRASONIC_SENSOR	include/jaguar.h	/^	ULTRASONIC_SENSOR		= 6,$/;"	e	enum:__anon1
+VAL_I	include/stellariscommon.h	7;"	d
+VAL_S	include/stellariscommon.h	9;"	d
+VAL_X	include/stellariscommon.h	8;"	d
+VERBOSE	Makefile	/^VERBOSE     = #1$/;"	m
+VOLTAGE_COMP_CONTROL	include/jaguar.h	/^	VOLTAGE_COMP_CONTROL	= 2,$/;"	e	enum:__anon3
+VOLTAGE_COMP_MODE_DISABLE	include/jaguar.h	/^	VOLTAGE_COMP_MODE_DISABLE		= 1,$/;"	e	enum:__anon6
+VOLTAGE_COMP_MODE_ENABLE	include/jaguar.h	/^	VOLTAGE_COMP_MODE_ENABLE		= 0,$/;"	e	enum:__anon6
+VOLTAGE_COMP_RAMP_SET	include/jaguar.h	/^	VOLTAGE_COMP_RAMP_SET			= 3,$/;"	e	enum:__anon6
+VOLTAGE_COMP_SET	include/jaguar.h	/^	VOLTAGE_COMP_SET				= 4,$/;"	e	enum:__anon6
+VOLTAGE_COMP_VOLT_SET	include/jaguar.h	/^	VOLTAGE_COMP_VOLT_SET			= 2,$/;"	e	enum:__anon6
+VOLTAGE_COMP_VOLT_SET_NO_ACK	include/jaguar.h	/^	VOLTAGE_COMP_VOLT_SET_NO_ACK	= 9$/;"	e	enum:__anon6
+VOLTAGE_CONTROL	include/jaguar.h	/^	VOLTAGE_CONTROL			= 0,$/;"	e	enum:__anon3
+VOLTAGE_MODE_DISABLE	include/jaguar.h	/^	VOLTAGE_MODE_DISABLE	= 1,$/;"	e	enum:__anon5
+VOLTAGE_MODE_ENABLE	include/jaguar.h	/^	VOLTAGE_MODE_ENABLE		= 0,$/;"	e	enum:__anon5
+VOLTAGE_RAMP_SET	include/jaguar.h	/^	VOLTAGE_RAMP_SET		= 3,$/;"	e	enum:__anon5
+VOLTAGE_SET	include/jaguar.h	/^	VOLTAGE_SET				= 2,$/;"	e	enum:__anon5
+VOLTAGE_SET_NO_ACK	include/jaguar.h	/^	VOLTAGE_SET_NO_ACK		= 8$/;"	e	enum:__anon5
+WAIT_1MS	src/proj0.c	8;"	d	file:
+_JAGUAR_H_	include/jaguar.h	8;"	d
+_STELLARIS_COMMON_H_	include/stellariscommon.h	2;"	d
+__anon12::api_class	include/jaguar.h	/^	uint32_t api_class	: 6;$/;"	m	struct:__anon12	access:public
+__anon12::api_idx	include/jaguar.h	/^	uint32_t api_idx	: 4;$/;"	m	struct:__anon12	access:public
+__anon12::devType	include/jaguar.h	/^	uint32_t devType	: 5;$/;"	m	struct:__anon12	access:public
+__anon12::dev_id	include/jaguar.h	/^	uint32_t dev_id		: 6;$/;"	m	struct:__anon12	access:public
+__anon12::manufact	include/jaguar.h	/^	uint32_t manufact	: 8;$/;"	m	struct:__anon12	access:public
+__anon12::rsv	include/jaguar.h	/^	uint32_t rsv		: 3;$/;"	m	struct:__anon12	access:public
+__anon13::data	include/jaguar.h	/^	char			data[8];$/;"	m	struct:__anon13	access:public
+__anon13::header	include/jaguar.h	/^	jaguar_header_t	header;$/;"	m	struct:__anon13	access:public
+__anon13::size	include/jaguar.h	/^	char			size;$/;"	m	struct:__anon13	access:public
+_close	src/syscalls.c	/^int _close(int file)$/;"	f	signature:(int file)
+_fstat	src/syscalls.c	/^int _fstat(int file)$/;"	f	signature:(int file)
+_isatty	src/syscalls.c	/^int _isatty(int file)$/;"	f	signature:(int file)
+_lseek	src/syscalls.c	/^int _lseek(int file, int ptr, int dir)$/;"	f	signature:(int file, int ptr, int dir)
+_open	src/syscalls.c	/^int _open(const char *name, int flags, int mode)$/;"	f	signature:(const char *name, int flags, int mode)
+_read	src/syscalls.c	/^int _read(int file, char *ptr, int len)$/;"	f	signature:(int file, char *ptr, int len)
+_sbrk	src/syscalls.c	/^caddr_t _sbrk(unsigned int incr)$/;"	f	signature:(unsigned int incr)
+_write	src/syscalls.c	/^int _write(int file, char *ptr, unsigned int len)$/;"	f	signature:(int file, char *ptr, unsigned int len)
+api_class	include/jaguar.h	/^	uint32_t api_class	: 6;$/;"	m	struct:__anon12	access:public
+api_class_t	include/jaguar.h	/^} api_class_t;$/;"	t	typeref:enum:__anon3
+api_idx	include/jaguar.h	/^	uint32_t api_idx	: 4;$/;"	m	struct:__anon12	access:public
+control_mode_api	include/jaguar.h	/^} control_mode_api;$/;"	t	typeref:enum:__anon7
+control_mode_ref_t	include/jaguar.h	/^} control_mode_ref_t;$/;"	t	typeref:enum:__anon8
+data	include/jaguar.h	/^	char			data[8];$/;"	m	struct:__anon13	access:public
+devType	include/jaguar.h	/^	uint32_t devType	: 5;$/;"	m	struct:__anon12	access:public
+dev_id	include/jaguar.h	/^	uint32_t dev_id		: 6;$/;"	m	struct:__anon12	access:public
+device_type	include/jaguar.h	/^} device_type;$/;"	t	typeref:enum:__anon1
+dirs	Makefile	/^dirs = src include $(SW_DIR)\/inc$/;"	m
+g_pfnVectors	src/startup.c	/^__attribute__ ((section(".isr_vector")))void (* const g_pfnVectors[])(void) =$/;"	v
+header	include/jaguar.h	/^	jaguar_header_t	header;$/;"	m	struct:__anon13	access:public
+heap_end	src/syscalls.c	/^char *heap_end = 0;$/;"	v
+init_jaguar	include/jaguar.h	/^void init_jaguar(void);$/;"	p	signature:(void)
+init_jaguar	src/jaguar.c	/^void init_jaguar(void)$/;"	f	signature:(void)
+jaguar_control_mode_enable	include/jaguar.h	/^void jaguar_control_mode_enable( api_class_t api, uint8_t dev_id, int on );$/;"	p	signature:( api_class_t api, uint8_t dev_id, int on )
+jaguar_control_mode_enable	src/jaguar.c	/^void jaguar_control_mode_enable( api_class_t api, uint8_t dev_id, int on )$/;"	f	signature:( api_class_t api, uint8_t dev_id, int on )
+jaguar_control_mode_reference	include/jaguar.h	/^void jaguar_control_mode_reference( api_class_t api, uint8_t dev_id, control_mode_ref_t ref );$/;"	p	signature:( api_class_t api, uint8_t dev_id, control_mode_ref_t ref )
+jaguar_control_mode_reference	src/jaguar.c	/^void jaguar_control_mode_reference( api_class_t api, uint8_t dev_id, control_mode_ref_t ref )$/;"	f	signature:( api_class_t api, uint8_t dev_id, control_mode_ref_t ref )
+jaguar_control_mode_set	include/jaguar.h	/^void jaguar_control_mode_set   ( api_class_t api, uint8_t dev_id, uint32_t val );$/;"	p	signature:( api_class_t api, uint8_t dev_id, uint32_t val )
+jaguar_control_mode_set	src/jaguar.c	/^void jaguar_control_mode_set   ( api_class_t api, uint8_t dev_id, uint32_t val )$/;"	f	signature:( api_class_t api, uint8_t dev_id, uint32_t val )
+jaguar_control_mode_setPID	include/jaguar.h	/^void jaguar_control_mode_setPID( api_class_t api, uint8_t dev_id, uint32_t p, uint32_t i, uint32_t d );$/;"	p	signature:( api_class_t api, uint8_t dev_id, uint32_t p, uint32_t i, uint32_t d )
+jaguar_control_mode_setPID	src/jaguar.c	/^void jaguar_control_mode_setPID( api_class_t api, uint8_t dev_id, uint32_t p, uint32_t i, uint32_t d )$/;"	f	signature:( api_class_t api, uint8_t dev_id, uint32_t p, uint32_t i, uint32_t d )
+jaguar_device_query	include/jaguar.h	/^jaguar_packet_data jaguar_device_query( uint8_t dev_id );$/;"	p	signature:( uint8_t dev_id )
+jaguar_device_query	src/jaguar.c	/^jaguar_packet_data jaguar_device_query( uint8_t dev_id )$/;"	f	signature:( uint8_t dev_id )
+jaguar_header_t	include/jaguar.h	/^} jaguar_header_t;$/;"	t	typeref:struct:__anon12
+jaguar_heartbeat	include/jaguar.h	/^void jaguar_heartbeat( void );$/;"	p	signature:( void )
+jaguar_heartbeat	src/jaguar.c	/^void jaguar_heartbeat( )$/;"	f
+jaguar_make_packet	src/jaguar.c	/^void jaguar_make_packet( jaguar_packet_t *packet, api_class_t api_class, uint8_t api_idx, uint8_t dev_id, uint8_t size,$/;"	f	signature:( jaguar_packet_t *packet, api_class_t api_class, uint8_t api_idx, uint8_t dev_id, uint8_t size, uint8_t data0, uint8_t data1, uint8_t data2, uint8_t data3, uint8_t data4, uint8_t data5, uint8_t data6, uint8_t data7 )
+jaguar_motor_config	include/jaguar.h	/^void jaguar_motor_config( uint8_t dev_id, motor_control_config_api config, uint32_t val );$/;"	p	signature:( uint8_t dev_id, motor_control_config_api config, uint32_t val )
+jaguar_motor_config	src/jaguar.c	/^void jaguar_motor_config( uint8_t dev_id, motor_control_config_api config, uint32_t val )$/;"	f	signature:( uint8_t dev_id, motor_control_config_api config, uint32_t val )
+jaguar_packet_data	include/jaguar.h	/^typedef char *jaguar_packet_data;$/;"	t
+jaguar_packet_t	include/jaguar.h	/^} jaguar_packet_t;$/;"	t	typeref:struct:__anon13
+jaguar_read_packet	src/jaguar.c	/^int jaguar_read_packet( )$/;"	f
+jaguar_send_packet	src/jaguar.c	/^void jaguar_send_packet( jaguar_packet_t *packet )$/;"	f	signature:( jaguar_packet_t *packet )
+jaguar_status	include/jaguar.h	/^void jaguar_status( uint8_t dev_id, status_api id );$/;"	p	signature:( uint8_t dev_id, status_api id )
+jaguar_status	src/jaguar.c	/^void jaguar_status( uint8_t dev_id, status_api id )$/;"	f	signature:( uint8_t dev_id, status_api id )
+jaguar_voltage_control_enable	include/jaguar.h	/^void jaguar_voltage_control_enable( uint8_t dev_id, int on );$/;"	p	signature:( uint8_t dev_id, int on )
+jaguar_voltage_control_enable	src/jaguar.c	/^void jaguar_voltage_control_enable( uint8_t dev_id, int on )$/;"	f	signature:( uint8_t dev_id, int on )
+jaguar_voltage_control_set	include/jaguar.h	/^void jaguar_voltage_control_set( uint8_t dev_id, int16_t voltage );$/;"	p	signature:( uint8_t dev_id, int16_t voltage )
+jaguar_voltage_control_set	src/jaguar.c	/^void jaguar_voltage_control_set( uint8_t dev_id, int16_t voltage )$/;"	f	signature:( uint8_t dev_id, int16_t voltage )
+main	src/proj0.c	/^int main(void)$/;"	f	signature:(void)
+main	src/startup.c	/^extern int main(void);$/;"	p	file:	signature:(void)
+manufact	include/jaguar.h	/^	uint32_t manufact	: 8;$/;"	m	struct:__anon12	access:public
+manufacturer_type	include/jaguar.h	/^} manufacturer_type;$/;"	t	typeref:enum:__anon2
+motor_control_config_api	include/jaguar.h	/^} motor_control_config_api;$/;"	t	typeref:enum:__anon10
+periodic_status_api	include/jaguar.h	/^} periodic_status_api;$/;"	t	typeref:enum:__anon11
+rsv	include/jaguar.h	/^	uint32_t rsv		: 3;$/;"	m	struct:__anon12	access:public
+size	include/jaguar.h	/^	char			size;$/;"	m	struct:__anon13	access:public
+status_api	include/jaguar.h	/^} status_api;$/;"	t	typeref:enum:__anon9
+sys_control_api	include/jaguar.h	/^} sys_control_api;$/;"	t	typeref:enum:__anon4
+voltage_comp_control_api	include/jaguar.h	/^} voltage_comp_control_api;$/;"	t	typeref:enum:__anon6
+voltage_control_api	include/jaguar.h	/^} voltage_control_api;$/;"	t	typeref:enum:__anon5
